@@ -1,0 +1,19 @@
+# Git Workflow for Project
+
+# Step 1: Initialize repository (only first time)
+git init
+
+# Step 2: Add remote repository
+git remote add origin https://github.com/<your-username>/<your-repo>.git
+
+# Step 3: Add changes
+git add .
+
+# Step 4: Commit changes
+git commit -m "Updated project files"
+
+# Step 5: Pull latest changes if needed
+git pull origin main --allow-unrelated-histories
+
+# Step 6: Push changes to GitHub
+git push -u origin main
